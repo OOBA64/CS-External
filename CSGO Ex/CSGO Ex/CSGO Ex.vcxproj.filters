@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="localplayer.cpp">
+      <Filter>CSGO</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="offset.cpp">
+      <Filter>CSGO</Filter>
+    </ClCompile>
+    <ClCompile Include="movement.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="triggerbot.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="visuals.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>CSGO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks.h">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="localplayer.h">
+      <Filter>CSGO</Filter>
+    </ClInclude>
+    <ClInclude Include="offset.hpp">
+      <Filter>CSGO</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>CSGO</Filter>
+    </ClInclude>
+    <ClInclude Include="Xor.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{3fe0c762-78ed-45b3-8f1f-34029323a899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO">
+      <UniqueIdentifier>{304e0a0f-fe5b-41c6-99eb-d88e797ed666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats">
+      <UniqueIdentifier>{bf82e4ae-1706-4796-9ed6-ffc087157df1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
